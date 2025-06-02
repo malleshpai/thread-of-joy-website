@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Calendar, Camera, Heart, Star } from "lucide-react";
+import { Calendar, Camera, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
@@ -14,7 +14,9 @@ const Index = () => {
         {/* Hero Section */}
         <div className="text-center mb-12">
           <div className="mb-6">
-            <Star className="w-16 h-16 text-orange-600 mx-auto mb-4" />
+            <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+              <span className="text-6xl text-orange-600 font-bold">ॐ</span>
+            </div>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-orange-900 mb-4">
             Sacred Thread Ceremony
@@ -22,6 +24,25 @@ const Index = () => {
           <h2 className="text-2xl md:text-3xl text-orange-700 mb-6">
             Upanayanam
           </h2>
+          
+          {/* Photo Section for Your Sons */}
+          <div className="mb-8">
+            <div className="flex flex-col md:flex-row gap-6 justify-center items-center max-w-4xl mx-auto">
+              <div className="w-48 h-48 bg-white/80 backdrop-blur-sm rounded-full shadow-lg border-4 border-orange-200 flex items-center justify-center">
+                <div className="text-center text-orange-600">
+                  <Camera className="w-12 h-12 mx-auto mb-2" />
+                  <p className="text-sm font-medium">Your Son's Photo</p>
+                </div>
+              </div>
+              <div className="w-48 h-48 bg-white/80 backdrop-blur-sm rounded-full shadow-lg border-4 border-red-200 flex items-center justify-center">
+                <div className="text-center text-red-600">
+                  <Camera className="w-12 h-12 mx-auto mb-2" />
+                  <p className="text-sm font-medium">Your Son's Photo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed">
             Join us in celebrating this sacred milestone as our sons embark on their spiritual journey 
             through the ancient tradition of Upanayanam - the ceremony of the sacred thread.
