@@ -1,4 +1,3 @@
-
 import { Clock, Droplets, Star, Flame } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
@@ -53,7 +52,7 @@ const UdakashantiDay = () => {
           <div className="mb-6">
             <Droplets className="w-16 h-16 text-blue-600 mx-auto mb-4" />
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4 font-elegant">
             Udakashanti Day
           </h1>
           <div className="flex items-center justify-center mb-6">
@@ -71,7 +70,7 @@ const UdakashantiDay = () => {
         <div className="max-w-6xl mx-auto">
           <Card className="border-blue-200 bg-white/90 backdrop-blur-sm shadow-xl mb-8">
             <CardHeader className="text-center">
-              <CardTitle className="text-2xl text-blue-900 mb-2">The Sacred Purpose</CardTitle>
+              <CardTitle className="text-2xl text-blue-900 mb-2 font-elegant">The Sacred Purpose</CardTitle>
               <CardDescription className="text-lg">
                 Understanding the spiritual significance of purification
               </CardDescription>
@@ -93,7 +92,7 @@ const UdakashantiDay = () => {
 
           {/* Ritual Breakdown */}
           <div className="mb-8">
-            <h2 className="text-3xl font-bold text-center text-orange-900 mb-8">Sacred Rituals</h2>
+            <h2 className="text-3xl font-bold text-center text-orange-900 mb-8 font-elegant">Sacred Rituals</h2>
             <div className="grid gap-6">
               {rituals.map((ritual, index) => (
                 <Card key={index} className="border-orange-200 bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-shadow">
@@ -103,7 +102,7 @@ const UdakashantiDay = () => {
                         <ritual.icon className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <CardTitle className="text-xl text-orange-900">{ritual.name}</CardTitle>
+                        <CardTitle className="text-xl text-orange-900 font-elegant">{ritual.name}</CardTitle>
                         <div className="text-sm text-orange-600 font-medium">Ritual {index + 1}</div>
                       </div>
                     </div>
@@ -122,7 +121,7 @@ const UdakashantiDay = () => {
           {/* Spiritual Preparation */}
           <Card className="border-yellow-200 bg-white/90 backdrop-blur-sm shadow-xl">
             <CardHeader className="text-center">
-              <CardTitle className="text-2xl text-yellow-900 mb-2">Spiritual Preparation</CardTitle>
+              <CardTitle className="text-2xl text-yellow-900 mb-2 font-elegant">Spiritual Preparation</CardTitle>
               <CardDescription className="text-lg">
                 Creating the perfect foundation for transformation
               </CardDescription>
@@ -130,7 +129,7 @@ const UdakashantiDay = () => {
             <CardContent className="space-y-6 text-lg leading-relaxed">
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-xl font-semibold text-orange-900 mb-3">For the Family</h3>
+                  <h3 className="text-xl font-semibold text-orange-900 mb-3 font-elegant">For the Family</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li>• Maintain purity of thought and action</li>
                     <li>• Observe fasting if prescribed</li>
@@ -140,7 +139,7 @@ const UdakashantiDay = () => {
                 </div>
                 
                 <div>
-                  <h3 className="text-xl font-semibold text-blue-900 mb-3">For the Initiates</h3>
+                  <h3 className="text-xl font-semibold text-blue-900 mb-3 font-elegant">For the Initiates</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li>• Mental preparation for the journey ahead</li>
                     <li>• Understanding the ceremony's significance</li>
@@ -150,9 +149,9 @@ const UdakashantiDay = () => {
                 </div>
               </div>
               
-              <p className="text-gray-800 border-l-4 border-blue-500 pl-6 italic">
+              <p className="text-gray-800 border-l-4 border-blue-500 pl-6 italic font-sanskrit">
                 "आपो हि ष्ठा मयोभुवस्ता न ऊर्जे दधातन।" <br/>
-                <span className="text-sm text-gray-600">
+                <span className="text-sm text-gray-600 font-sans">
                   "Waters are indeed the source of bliss, they grant us strength and energy."
                 </span>
               </p>

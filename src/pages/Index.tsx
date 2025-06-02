@@ -15,13 +15,13 @@ const Index = () => {
         <div className="text-center mb-12">
           <div className="mb-6">
             <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
-              <span className="text-6xl text-orange-600 font-bold">ॐ</span>
+              <span className="text-6xl text-orange-600 font-bold font-sanskrit">ॐ</span>
             </div>
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-orange-900 mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold text-orange-900 mb-4 font-elegant">
             Sacred Thread Ceremony
           </h1>
-          <h2 className="text-2xl md:text-3xl text-orange-700 mb-6">
+          <h2 className="text-2xl md:text-3xl text-orange-700 mb-6 font-sanskrit font-semibold">
             Upanayanam
           </h2>
           
@@ -53,7 +53,7 @@ const Index = () => {
             <Card className="border-orange-200 bg-white/80 backdrop-blur-sm shadow-lg">
               <CardHeader className="text-center">
                 <Calendar className="w-8 h-8 text-orange-600 mx-auto mb-2" />
-                <CardTitle className="text-orange-900">Day 1 - Udakashanti</CardTitle>
+                <CardTitle className="text-orange-900 font-elegant">Day 1 - Udakashanti</CardTitle>
                 <CardDescription className="text-lg font-semibold">June 7th, 2025</CardDescription>
               </CardHeader>
               <CardContent className="text-center">
@@ -71,7 +71,7 @@ const Index = () => {
             <Card className="border-red-200 bg-white/80 backdrop-blur-sm shadow-lg">
               <CardHeader className="text-center">
                 <Calendar className="w-8 h-8 text-red-600 mx-auto mb-2" />
-                <CardTitle className="text-red-900">Day 2 - Upanayanam</CardTitle>
+                <CardTitle className="text-red-900 font-elegant">Day 2 - Upanayanam</CardTitle>
                 <CardDescription className="text-lg font-semibold">June 8th, 2025</CardDescription>
               </CardHeader>
               <CardContent className="text-center">
@@ -93,7 +93,7 @@ const Index = () => {
           <Card className="border-yellow-200 bg-white/90 backdrop-blur-sm shadow-xl">
             <CardHeader className="text-center">
               <Heart className="w-12 h-12 text-yellow-600 mx-auto mb-4" />
-              <CardTitle className="text-3xl text-yellow-900 mb-2">The Significance of Upanayanam</CardTitle>
+              <CardTitle className="text-3xl text-yellow-900 mb-2 font-elegant">The Significance of Upanayanam</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6 text-lg leading-relaxed">
               <p className="text-gray-800">
@@ -104,7 +104,7 @@ const Index = () => {
               
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-xl font-semibold text-orange-900 mb-3">Sacred Thread (Yagnopavita)</h3>
+                  <h3 className="text-xl font-semibold text-orange-900 mb-3 font-elegant">Sacred Thread (Yagnopavita)</h3>
                   <p className="text-gray-700">
                     The sacred thread consists of three strands representing the three debts: to God, to sages, and to ancestors. 
                     It symbolizes purity, wisdom, and the commitment to dharmic living.
@@ -112,7 +112,7 @@ const Index = () => {
                 </div>
                 
                 <div>
-                  <h3 className="text-xl font-semibold text-red-900 mb-3">Spiritual Rebirth</h3>
+                  <h3 className="text-xl font-semibold text-red-900 mb-3 font-elegant">Spiritual Rebirth</h3>
                   <p className="text-gray-700">
                     This ceremony is considered a spiritual rebirth, marking the transition from childhood to studenthood (Brahmacharya). 
                     The initiate becomes "twice-born" - once physically and once spiritually.
@@ -120,9 +120,9 @@ const Index = () => {
                 </div>
               </div>
               
-              <p className="text-gray-800 border-l-4 border-yellow-500 pl-6 italic">
+              <p className="text-gray-800 border-l-4 border-yellow-500 pl-6 italic font-sanskrit">
                 "यज्ञोपवीतं परमं पवित्रं प्रजापतेर्यत्सहजं पुरस्तात्।" <br/>
-                <span className="text-sm text-gray-600">
+                <span className="text-sm text-gray-600 font-sans">
                   "The sacred thread is supremely pure, born with Prajapati from the beginning."
                 </span>
               </p>
@@ -135,7 +135,7 @@ const Index = () => {
           <Card className="border-green-200 bg-white/90 backdrop-blur-sm shadow-xl max-w-2xl mx-auto">
             <CardHeader>
               <Camera className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <CardTitle className="text-2xl text-green-900">Share Your Memories</CardTitle>
+              <CardTitle className="text-2xl text-green-900 font-elegant">Share Your Memories</CardTitle>
               <CardDescription className="text-lg">
                 Help us capture this special occasion by sharing your photos
               </CardDescription>
